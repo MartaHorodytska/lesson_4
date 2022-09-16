@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'larsseit';
+    src: url("../fonts/Larsseit/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit/Larsseit-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Regular.woff2") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url("../fonts/Lato/Lato-Black.woff2") format("woff2"), url("../fonts/Lato/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caveat';
+    src: url("../fonts/Caveat/Caveat-Regular.woff2") format("woff2"), url("../fonts/Caveat/Caveat-Regular.woff") format("woff");
+    font-display: swap;
+    font-size: 21px;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pacifico';
+    src: url("../fonts/Pacifico/Pacifico-Regular.woff2") format("woff2"), url("../fonts/Pacifico/Pacifico-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubik-marker';
+    src: url("../fonts/RubikMarker/RubikMarkerHatch-Regular.woff2") format("woff2"), url("../fonts/RubikMarker/RubikMarkerHatch-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubik-moonrocks';
+    src: url("../fonts/RubikMoonrocks/RubikMoonrocks-Regular.woff2") format("woff2"), url("../fonts/RubikMoonrocks/RubikMoonrocks-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header,
+body,
+footer {
+    font-family: 'roboto';
+}
+
+h1,
+.picture {
+    font-family: 'rubik-marker';
+    color: brown;
+}
+
+.picture {
+    color: blue;
+}
+
+.mona-content .picture,
+.kapella-content .description {
+    color: blueviolet;
+}
+
+.description {
+    color: teal;
+}
+
+#madonna,
+#mona-lisa {
+    color: darkgreen;
+}
+
+h2,
+.ukrainish {
+    font-family: 'rubik-moonrocks';
+    font-size: 21px;
+}
+
+ul,
+.mona-description,
+.supper-description,
+.adam-description,
+.kapella-description,
+.madonna-description {
+    font-family: 'pacifico';
+    color: chocolate;
+}
+
+ul {
+    color: rebeccapurple;
+}
+
+.mona-content,
+.supper-content,
+.adam-content,
+.kapella-content,
+.madona-content {
+    font-family: 'caveat';
+    font-size: 21px;
+}
+
+footer {
+    color: crimson;
+}
+
+footer .english {
+    font-family: 'larsseit';
+    color: yellow;
+}
